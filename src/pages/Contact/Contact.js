@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { toast } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 import axios from "axios";
+import "react-toastify/dist/ReactToastify.css";
 import "./contact.css";
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
@@ -153,6 +154,17 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ToastContainer
+        position="bottom-center" 
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 };
