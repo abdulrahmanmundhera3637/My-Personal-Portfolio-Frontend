@@ -4,136 +4,77 @@ import {
   SiJavascript,
   SiReact,
   SiMongodb,
-  SiMysql,
   SiGithub,
   SiWordpress,
   SiExpress,
-  SiTailwindcss,
-  SiFirebase,
-  SiDocker,
-  SiNginx,
-  SiTypescript,
-  SiMui,
-  SiFigma,
-  SiAdobexd,
-  SiAdobephotoshop,
   SiCanva,
 } from "react-icons/si";
+
 export const TechstackList = [
   {
     _id: 1,
-    name: "HTML/HTML5",
-    icon: BsFiletypeHtml,
+    name: "HTML",
+    icon: BsFiletypeHtml, 
+    percentage: 90
   },
   {
     _id: 2,
-    name: "CSS/CSS-3",
+    name: "CSS",
     icon: BsFiletypeCss,
+    percentage: 80
   },
   {
     _id: 3,
-    name: "Bootstrap",
-    icon: BsBootstrap,
+    name: "JAVASCRIPT",
+    icon: SiJavascript,
+    percentage: 70
   },
   {
     _id: 4,
-    name: "Javascript",
-    icon: SiJavascript,
+    name: "BOOTSTRAP",
+    icon: BsBootstrap,
+    percentage: 75
   },
   {
     _id: 5,
-    name: "React JS",
+    name: "REACT JS",
     icon: SiReact,
+    percentage: 85
   },
   {
     _id: 6,
-    name: "Node JS ",
+    name: "Node.js",
     icon: FaNodeJs,
+    percentage: 80
   },
   {
     _id: 7,
-    name: "Express JS ",
+    name: "EXPRESS",
     icon: SiExpress,
+    percentage: 70
   },
   {
     _id: 8,
-    name: "Wordpress ",
-    icon: SiWordpress,
+    name: "MONGODB",
+    icon: SiMongodb,
+    percentage: 75
   },
   {
     _id: 9,
-    name: "Mongodb ",
-    icon: SiMongodb,
+    name: "GITHUB",
+    icon: SiGithub,
+    percentage: 65
   },
   {
     _id: 10,
-    name: "Canva",
-    icon: SiCanva,
+    name: "WORDPRESS",
+    icon: SiWordpress,
+    percentage: 60
   },
   {
     _id: 11,
-    name: "Git / Github ",
-    icon: SiGithub,
-  },
-  {
-    _id: 12,
-    name: "Tailwind ",
-    icon: SiTailwindcss,
-  },
-  {
-    _id: 13,
-    name: "React Native ",
-    icon: SiReact,
-  },
-  {
-    _id: 14,
-    name: "SQL ",
-    icon: SiMysql,
-  },
-  {
-    _id: 15,
-    name: "Firebase ",
-    icon: SiFirebase,
-  },
-  {
-    _id: 16,
-    name: "Docker ",
-    icon: SiDocker,
-  },
-  {
-    _id: 17,
-    name: "Nginx ",
-    icon: SiNginx,
-  },
-  {
-    _id: 18,
-    name: "TypeScript",
-    icon: SiTypescript,
-  },
-
-  {
-    _id: 19,
-    name: "React JS",
-    icon: SiReact,
-  },
-  {
-    _id: 20,
-    name: "React MUI",
-    icon: SiMui,
-  },
-  {
-    _id: 22,
-    name: "Figma ",
-    icon: SiFigma,
-  },
-  {
-    _id: 23,
-    name: "Adobe XD ",
-    icon: SiAdobexd,
-  },
-  {
-    _id: 24,
-    name: "Photoshop ",
-    icon: SiAdobephotoshop,
+    name: "CANVA",
+    icon: SiCanva,
+    percentage: 90
   },
 ];

@@ -15,7 +15,7 @@
 }
 
 #ads {
-  margin: 30px 0px 30px 0px;
+  margin: 30px 0px;
 }
 
 #ads .card-notify-badge {
@@ -29,6 +29,7 @@
   padding: 5px 10px;
   font-size: 14px;
 }
+
 .project .card img {
   height: 150px;
   width: 100%;
@@ -61,6 +62,14 @@
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transition: all 1s ease;
 }
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+  margin-top: 15px; /* Space above the buttons */
+}
+
 .ad-btn {
   text-transform: uppercase;
   width: 150px;
@@ -73,7 +82,6 @@
   font-size: 16px;
   line-height: 35px;
   text-decoration: none;
-  margin: 20px auto 20px auto;
   overflow: hidden;
   position: relative;
 }
@@ -89,7 +97,7 @@
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-/* =============================== */
+/* Responsive Adjustments */
 @media (max-width: 700px) {
   .project {
     margin: 0;

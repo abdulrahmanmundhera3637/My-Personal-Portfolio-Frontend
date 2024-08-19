@@ -15,24 +15,58 @@
 }
 
 .techstack .card {
-  cursor: pointer;
+  cursor: default; /* Ensure cards are not interactive */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  border: 1px solid #ddd; /* Optional: add border to distinguish cards */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.techstack .card-content {
+  position: relative;
+}
+
+.techstack .tech-icon-container {
+  display: flex;
+  justify-content: center; /* Center the icon horizontally */
+  align-items: center; /* Center the icon vertically */
+  margin-bottom: 10px; /* Space between icon and progress bar */
 }
 
 .techstack .tech-icon {
-  font-size: 2rem;
-  margin-right: 10px;
+  font-size: 3rem; /* Increase the size of the icon */
 }
 
 .techstack .card:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  background-color: #138781;
-  color: white;
-  transition: 0.3s;
+  transform: translateY(-5px); /* Lift the card up slightly */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px; /* Subtle shadow for lift effect */
 }
 
-/* =============================== */
+/* Tooltip Styles */
+.card-content {
+  position: relative;
+}
+
+.card-content:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%; /* Position the tooltip above the card */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Responsive Adjustments */
 @media (max-width: 700px) {
   .techstack {
     padding-left: 0;

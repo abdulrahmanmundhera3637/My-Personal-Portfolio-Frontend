@@ -44,9 +44,14 @@ const Projects = () => {
                    Simon Says Game
                   </h5>
                 </div>
-                <a className="ad-btn" href="https://github.com/abdulRahman3070/Simon-Says-Game">
-                  View
-                </a>
+                <div className="btn-container">
+                  <a className="ad-btn" href="https://github.com/abdulrahmanmundhera3637/Simon_Says-Game">
+                    Source Code
+                  </a>
+                  <a className="ad-btn" href="https://simon-says-game-orcin.vercel.app" target="_blank" rel="noopener noreferrer">
+                    View Website
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -54,7 +59,7 @@ const Projects = () => {
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack</span>
-                <img src={project1} alt="project2" />
+                <img src={project1} alt="project1" />
               </div>
               <div className="card-image-overlay m-auto mt-3">
                 <span className="card-detail-badge">HTML</span>
@@ -71,9 +76,14 @@ const Projects = () => {
                   Ecommerce Mern App
                   </h5>
                 </div>
-                <a className="ad-btn" href="https://github.com/abdulRahman3070/Mern--Ecommerace-app">
-                  View
-                </a>
+                <div className="btn-container">
+                  <a className="ad-btn" href="https://github.com/abdulrahmanmundhera3637/MERN-ECOMMERCACE-APP">
+                    Source Code
+                  </a>
+                  <a className="ad-btn" href="https://mern-frontend-phi-mauve.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    View Website
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -96,9 +106,14 @@ const Projects = () => {
                    Mern Portfolio Project
                   </h5>
                 </div>
-                <a className="ad-btn" href="https://github.com/abdulRahman3070/mern-portfolio-app">
-                  View
-                </a>
+                <div className="btn-container">
+                  <a className="ad-btn" href="https://github.com/abdulrahmanmundhera3637/MERN-PORTFOLIO-APP">
+                    Source Code
+                  </a>
+                  <a className="ad-btn" href="https://my-personal-portfolio-frontend-qekm.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    View Website
+                  </a>
+                </div>
               </div>
             </div>
           </div>

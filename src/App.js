@@ -82,7 +82,7 @@ function App() {
 
   @media (max-width: 768px) {
     .scroll-to-top {
-      right: 10px; 
+      right: 5px; 
       bottom: 10px; 
       width: 40px;
       height: 40px; 
