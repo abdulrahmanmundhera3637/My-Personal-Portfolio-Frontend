@@ -51,9 +51,9 @@ function App() {
       </div>
       <ScrollToTop
   smooth
-  color="#f29f67" 
+  color="#ff0016" 
   style={{
-    backgroundColor: "#1e1e2c", 
+    backgroundColor: "#b6c3d7", 
     borderRadius: "50%", 
     width: "40px", 
     height: "40px", 
