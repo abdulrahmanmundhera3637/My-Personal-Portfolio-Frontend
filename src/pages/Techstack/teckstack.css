@@ -1,3 +1,14 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .techstack {
   padding-left: 130px;
   margin-top: 60px;
@@ -12,6 +23,7 @@
 .techstack h2 {
   font-weight: bold;
   color: #138781;
+  animation: fadeInUp 1s ease-out; /* Apply the fade-in animation */
 }
 
 .techstack .card {

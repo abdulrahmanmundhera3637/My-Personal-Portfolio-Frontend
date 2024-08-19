@@ -8,7 +8,6 @@ import Techstack from "./pages/Techstack/Techstack";
 import WorkExp from "./pages/WorkExp/WorkExp";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
-import Tada from "react-reveal/Tada";
 import MobileNav from "./components/MobileNav/MobileNav";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -41,11 +40,11 @@ function App() {
     textAlign: 'center'        
   }}
 >
-  <Tada>
+  
     <h4 style={{ marginLeft: "0px" }}>
       Hafiz 😍 Abdul Rahman &copy; 2024
     </h4>
-  </Tada>
+  
 </div>
 
       </div>

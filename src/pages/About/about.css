@@ -1,8 +1,20 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .about {
   margin: 30px 0px;
   padding: 20px;
   margin-left: 200px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  animation: fadeInUp 1s ease-out;
 }
 
 .about-img img {
@@ -25,6 +37,7 @@
   border-bottom: 2px solid gray;
   text-align: center;
 }
+
 .about-content p {
   text-align: justify;
   padding: 20px;
@@ -43,16 +56,17 @@
 }
 
 /* ================================ */
+
 @media (max-width: 700px) {
   .about {
     margin: 0;
     padding: 0;
-    margin-left: 0; /* Remove the left margin on smaller screens */
-    box-shadow: none; /* Remove box shadow on smaller screens */
+    margin-left: 0; 
+    box-shadow: none;
     width: 100%;
   }
   .about-img img {
-    height: auto; /* Adjust image height for responsiveness */
+    height: auto; 
   }
   .about-content h1 {
     margin-top: 10px;
