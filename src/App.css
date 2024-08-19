@@ -1,47 +1,5 @@
 .footer{
    text-align: center;
 }
-/* General styles for Scroll to Top button */
-.react-scroll-to-top {
-   position: fixed;
-   bottom: 20px; /* Adjust as needed */
-   right: 20px;  /* Adjust as needed */
-   z-index: 1000;
-   transition: opacity 0.3s ease, transform 0.3s ease;
- }
- 
- .react-scroll-to-top:hover {
-   opacity: 0.8;
- }
- 
- .react-scroll-to-top:active {
-   transform: scale(0.9);
- }
- 
- /* Mobile devices */
- @media (max-width: 768px) {
-   .react-scroll-to-top {
-     bottom: 15px; /* Adjust for smaller screens */
-     right: 15px;  /* Adjust for smaller screens */
-     width: 50px;  /* Adjust size for mobile */
-     height: 50px; /* Adjust size for mobile */
-   }
- }
- 
- /* Example button styling for enhanced visibility */
- .react-scroll-to-top svg {
-   width: 30px;
-   height: 30px;
- }
- 
- .react-scroll-to-top {
-   background-color: #1e1e2c; /* Background color */
-   color: #f29f67;            /* Icon color */
-   border-radius: 50%;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
- }
- 
- .react-scroll-to-top svg {
-   stroke: currentColor;
- }
+
  
