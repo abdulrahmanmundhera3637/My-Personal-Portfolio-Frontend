@@ -6,6 +6,7 @@ import "./contact.css";
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
+import contact3 from "../../assests/images/contact3.jpg";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -54,8 +55,8 @@ const Contact = () => {
             <div className="card1">
               <div className="row border-line">
                 <img
-                  src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg?w=2000"
-                  alt="contact"
+                  src={contact3}
+                  alt="contact us"
                   className="image"
                 />
               </div>
