@@ -136,7 +136,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 mt-2">
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack</span>
