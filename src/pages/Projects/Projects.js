@@ -111,7 +111,9 @@ const Projects = () => {
                 <span className="card-detail-badge">Express</span>
                 <span className="card-detail-badge">React js</span>
                 <span className="card-detail-badge">Mongodb</span>
-                <span className="card-detail-badge">Core-Js</span>
+                <span className="card-detail-badge">HTML</span>
+                <span className="card-detail-badge">CSS</span>
+                <span className="card-detail-badge">JavaScript</span>
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
