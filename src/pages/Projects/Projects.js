@@ -3,6 +3,7 @@ import "./projects.css";
 import project1 from "../../assests/images/project1.png";
 import project2 from "../../assests/images/project2.png";
 import project3 from "../../assests/images/project3.png";
+import project4 from "../../assests/images/project4.png";
 
 const Projects = () => {
   return (
@@ -40,15 +41,21 @@ const Projects = () => {
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">
-                   Simon Says Game
-                  </h5>
+                  <h5 className="text-uppercase">Simon Says Game</h5>
                 </div>
                 <div className="btn-container">
-                  <a className="ad-btn" href="https://github.com/abdulrahmanmundhera3637/Simon_Says-Game">
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/abdulrahmanmundhera3637/Simon_Says-Game"
+                  >
                     Source Code
                   </a>
-                  <a className="ad-btn" href="https://simon-says-game-orcin.vercel.app" target="_blank" rel="noopener noreferrer">
+                  <a
+                    className="ad-btn"
+                    href="https://simon-says-game-orcin.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Website
                   </a>
                 </div>
@@ -72,15 +79,21 @@ const Projects = () => {
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">
-                  Ecommerce Mern App
-                  </h5>
+                  <h5 className="text-uppercase">Ecommerce Mern App</h5>
                 </div>
                 <div className="btn-container">
-                  <a className="ad-btn" href="https://github.com/abdulrahmanmundhera3637/MERN-ECOMMERCACE-APP">
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/abdulrahmanmundhera3637/MERN-ECOMMERCACE-APP"
+                  >
                     Source Code
                   </a>
-                  <a className="ad-btn" href="https://mern-frontend-phi-mauve.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    className="ad-btn"
+                    href="https://mern-frontend-phi-mauve.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Website
                   </a>
                 </div>
@@ -102,15 +115,55 @@ const Projects = () => {
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">
-                   Mern Portfolio Project
-                  </h5>
+                  <h5 className="text-uppercase">Mern Portfolio Project</h5>
                 </div>
                 <div className="btn-container">
-                  <a className="ad-btn" href="https://github.com/abdulrahmanmundhera3637/MERN-PORTFOLIO-APP">
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/abdulrahmanmundhera3637/MERN-PORTFOLIO-APP"
+                  >
                     Source Code
                   </a>
-                  <a className="ad-btn" href="https://my-personal-portfolio-frontend-qekm.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    className="ad-btn"
+                    href="https://my-personal-portfolio-frontend-qekm.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Website
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full Stack</span>
+                <img src={project4} alt="project1" />
+              </div>
+              <div className="card-image-overlay m-auto mt-3">
+                <span className="card-detail-badge">Node js</span>
+                <span className="card-detail-badge">Express</span>
+                <span className="card-detail-badge">React vite</span>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">Portfolio Project</h5>
+                </div>
+                <div className="btn-container">
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/abdulrahmanmundhera3637/portfolio_With_Vite"
+                  >
+                    Source Code
+                  </a>
+                  <a
+                    className="ad-btn"
+                    href="https://portfolio-frontend-vite.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Website
                   </a>
                 </div>
