@@ -5,6 +5,7 @@ import project2 from "../../assests/images/project2.png";
 import project3 from "../../assests/images/project3.png";
 import project4 from "../../assests/images/project4.png";
 import project5 from "../../assests/images/project5.png";
+import project6 from "../../assests/images/project6.png";
 
 const Projects = () => {
   return (
@@ -198,6 +199,40 @@ const Projects = () => {
                   <a
                     className="ad-btn"
                     href="https://calculator-app-one-rouge.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Website
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mt-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Frontend</span>
+                <img src={project6} alt="project1" />
+              </div>
+              <div className="card-image-overlay m-auto mt-3">
+                <span className="card-detail-badge">HTML</span>
+                <span className="card-detail-badge">CSS</span>
+                <span className="card-detail-badge">JavaScript</span>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">Calculator App</h5>
+                </div>
+                <div className="btn-container">
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/abdulrahmanmundhera3637/Culculator2"
+                  >
+                    Source Code
+                  </a>
+                  <a
+                    className="ad-btn"
+                    href="https://culculator2.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
